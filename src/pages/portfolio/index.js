@@ -32,12 +32,12 @@ export const Portfolio = () => {
               <div key={i} className="po_item card">
                 <div
                   className="img"
-                  style={{ backgroundImage: `url(${myImage1})` }}
+                  style={{ backgroundImage: `url(${myImages[data.img]})` }}
                 ></div>
                 {/* <img src={`${myImages[data.img]}`} alt={data.title} /> */}
                 <div class="card-body content">
                   <h5 class="card-title">{data.title}</h5>
-                  <p>{data.description}</p>
+                  <p>{data.description.slice(0,150)}</p>
                   {/* <a href={data.link}>view project</a> */}  
                   <ProjectModal project={data} img={myImages[data.img]} />
                 </div>

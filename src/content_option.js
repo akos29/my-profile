@@ -108,38 +108,67 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "1",
-        description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is built with Ruby on Rails and React.",
-        link: "#",
+        img: "0",
+        description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is developed in collaboration with Plan International Ethiopia, this tool aids in evaluating and improving organizational capacities in various critical areas. It facilitates benchmarking and supports capacity-building efforts among Civil Society Organizations (CSOs) and their partners. The application is built with PHP, Laravel, and React.",
+        link: "http://safari-ict-demo.com/",
+        github: "https://github.com/safari-ict/",
         title: "Organizational Self Assessment Tool",
         tech: [
-            { name: "Ruby on Rails", value: 85 },
+            { name: "PHP", value: 85 },
+            { name: "Laravel", value: 85 },
+            { name: "MySQL", value: 80 },
+            { name: "React", value: 80 },
+            { name: "JavaScript", value: 90 },
+            { name: "HTML5", value: 90 },
+            { name: "CSS3", value: 85 },
+        ],
+    },
+   
+    {
+        img: "1",
+        description: "Yacht Reservation App: Collaboratively developed using React, Redux, Ruby on Rails, and PostgreSQL, this dynamic application offers a seamless platform for reserving luxury yachts. With an intuitive user interface and robust back-end architecture, users can effortlessly browse yacht options, select preferred dates, and secure bookings. This project demonstrates our team's proficiency in front-end and back-end technologies, delivering a user-friendly experience for maritime enthusiasts.",
+        link: "https://yacht-booking-app.onrender.com/",
+        github: "https://github.com/akos29/book_appointment_front",
+        title: "YoYacht Booking App",
+        tech: [
+           { name: "React", value: 85 },
+            { name: "Redux", value: 85 },
+            { name: "Ruby on Rails", value: 80 },
+            { name: "PostgreSQL", value: 90 },
+            { name: "JavaScript", value: 90 },
+    
+        ],
+    },
+   
+    {
+        img: "3",
+        description: "A web application designed to create a bookstore that allows users to manage books and track their progress. The application is built with React and Redux.",
+        link: "https://flop-bookstore.netlify.app/",
+        github: "",
+        title: "Bookstore CMS",
+        tech: [
             { name: "React", value: 85 },
-            { name: "Redux", value: 80 },
+            { name: "Redux", value: 85 },
             { name: "JavaScript", value: 80 },
             { name: "HTML5", value: 90 },
             { name: "CSS3", value: 90 },
             { name: "Bootstrap", value: 85 },
-            { name: "Material UI", value: 80 },
-            { name: "PostgreSQL", value: 90 },
+            
         ],
     },
    
     {
         img: "2",
-        description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is built with Ruby on Rails and React.",
-        link: "#",
-        title: "Organizational Self Assessment Tool",
+        description: "Movie Stat Tracker: Designed for seamless access on both desktop and mobile devices, this application empowers users with quick access to movie statistics, including critic reviews, user ratings, and box office earnings. Leveraging the IMDb API, this React and Redux-based application offers an intuitive interface for exploring and comparing film data. Discover insights into your favorite movies with ease, showcasing our team's expertise in front-end development, API integration, and mobile responsiveness.",
+        link: "https://flipmovies.netlify.app/",
+        github: "https://github.com/akos29/movieHub",
+        title: "Flip Movie Stat Tracker",
         tech: [
-            { name: "Ruby on Rails", value: 85 },
             { name: "React", value: 85 },
-            { name: "Redux", value: 80 },
+            { name: "Redux", value: 85 },
             { name: "JavaScript", value: 80 },
             { name: "HTML5", value: 90 },
             { name: "CSS3", value: 90 },
-            { name: "Bootstrap", value: 85 },
-            { name: "Material UI", value: 80 },
-            { name: "PostgreSQL", value: 90 },
         ],
     },
    
@@ -147,24 +176,7 @@ const dataportfolio = [
         img: "3",
         description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is built with Ruby on Rails and React.",
         link: "#",
-        title: "Organizational Self Assessment Tool",
-        tech: [
-            { name: "Ruby on Rails", value: 85 },
-            { name: "React", value: 85 },
-            { name: "Redux", value: 80 },
-            { name: "JavaScript", value: 80 },
-            { name: "HTML5", value: 90 },
-            { name: "CSS3", value: 90 },
-            { name: "Bootstrap", value: 85 },
-            { name: "Material UI", value: 80 },
-            { name: "PostgreSQL", value: 90 },
-        ],
-    },
-   
-    {
-        img: "4",
-        description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is built with Ruby on Rails and React.",
-        link: "#",
+        github: '#',
         title: "Organizational Self Assessment Tool",
         tech: [
             { name: "Ruby on Rails", value: 85 },
@@ -182,6 +194,7 @@ const dataportfolio = [
         img: "1",
         description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is built with Ruby on Rails and React.",
         link: "#",
+        github: '#',
         title: "Organizational Self Assessment Tool",
         tech: [
             { name: "Ruby on Rails", value: 85 },
@@ -199,6 +212,7 @@ const dataportfolio = [
         img: "2",
         description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is built with Ruby on Rails and React.",
         link: "#",
+        github: '#',
         title: "Organizational Self Assessment Tool",
         tech: [
             { name: "Ruby on Rails", value: 85 },
@@ -216,6 +230,7 @@ const dataportfolio = [
         img: "2",
         description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is built with Ruby on Rails and React.",
         link: "#",
+        github: '#',
         title: "Organizational Self Assessment Tool",
         tech: [
             { name: "Ruby on Rails", value: 85 },

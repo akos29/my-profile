@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';
 import { AiFillGithub } from 'react-icons/ai';
 import { RxExternalLink } from 'react-icons/rx';
+import { BsBoxArrowUpRight }  from 'react-icons/bs';
 
 function ProjectModal({ project,img }) {
   const [show, setShow] = useState(false);
@@ -12,7 +13,7 @@ function ProjectModal({ project,img }) {
   return (
     <>
       <Button className='ac_btn btn' onClick={handleShow}>
-        See Project
+       See Project <BsBoxArrowUpRight />
       </Button>
       {/* <div className='bg__menu h-100'> */}
       <Modal show={show} onHide={handleClose} className='po_modal'>
@@ -34,12 +35,12 @@ function ProjectModal({ project,img }) {
           <p>{project.description}</p>
           </div>
         <div className='po_footer'>
-          <Button className='ac_btn btn' onClick={handleClose}>
+          <a className='ac_btn btn' href={project.link}>
             See Live <RxExternalLink />
-          </Button>
-          <Button className='ac_btn btn' onClick={handleClose}>
+          </a>
+          <a className='ac_btn btn'  href={project.github}>
             See Source <AiFillGithub />
-          </Button>
+          </a>
         </div>
         </Modal.Body>
       </Modal>
