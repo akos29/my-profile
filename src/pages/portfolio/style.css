@@ -15,18 +15,24 @@
     text-align: center;
     margin: 0.5rem auto;
     position: relative;
-    background: var(--secondary-color);
-    padding: .5rem;
+    background: var(--overlay-color);
+    /* padding: .5rem; */
     /* border: 1px solid var(--secondary-color); */
     transition: 0.3s ease;
     /* font-size: 0; */
     min-height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.po_item img {
-    max-width: 100%;
-    background-attachment:scroll;
-    /* height: 100%; */
+.po_item .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 10%;
+    background-size: cover;
 }
 
 .po_item .content {
@@ -57,13 +63,14 @@
 }
 
 .po_item:hover {
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .po_item:hover .content {
     height: calc(100% - 5px);
     width: calc(100% - 5px);
     opacity: 1;
+    border-radius: 5px;
 }
 
 .po_item:hover .content {
@@ -86,7 +93,20 @@
 .po_modal {
     width: 100%;
     background-color: var(--bg-color);
-    opacity: .9;
+}
+
+.po_modal .img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 5px;
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 30%;
+    background-size: 100%;
+    object-fit: cover;
 }
 
 .po_header {
@@ -104,7 +124,7 @@
     justify-content: flex-end;
     gap: 1rem;
     padding: 1rem;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
     opacity: .9;
 }
 
@@ -114,12 +134,13 @@
     margin-top: .5rem;
 }
 
-.po_footer .btn {
-    background-color: var(--secondary-color);
-    color: var(--primary-color)!important;
+.po_footer .btn, .ac_btn  {
+    background-color: var(--bg-color)!important;
+    color: var(--text-color)!important;
     padding: .5rem 1rem;
     border: none;
     cursor: pointer;
+    border: 1px solid var(--text-color);
     transition: all .3s ease-in-out;
 }
 .po_skills {
@@ -134,9 +155,10 @@
 }
 
 .po_skills li {
-    background-color: var(--secondary-color);
-    color: var(--primary-color); 
-    padding: .5rem 1rem;
+    background-color: var(--overlay-color)!important;
+    color: var(--text-color); 
+    border: 1px solid var(--text-color);
+    padding: .17rem .5rem;
     border-radius: 5px;
     
 }

@@ -5,8 +5,11 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const ContactUs = () => {
+  const [formSuccess, setFormSuccess] = useState(false);
   const [formData, setFormdata] = useState({
     email: "",
     name: "",
@@ -33,22 +36,23 @@ export const ContactUs = () => {
         contactConfig.YOUR_SERVICE_ID,
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
-        contactConfig.YOUR_USER_ID
+        contactConfig.YOUR_USER_ID,
       )
       .then(
         (result) => {
-          console.log(result.text);
+          toast.success('SUCCESS! ,Thankyou for your message');
+          setFormSuccess(true);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! ,Thankyou for your message",
             variant: "success",
             show: true,
           });
         },
         (error) => {
-          console.log(error.text);
+          toast.error(`Fail to send!,${error.text}`);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Fail to send!,${error.text}`,
             variant: "danger",
             show: true,
           });
@@ -111,8 +115,8 @@ export const ContactUs = () => {
             </address>
             <p>{contactConfig.description}</p>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
-            <form onSubmit={handleSubmit} className="contact__form w-100">
+           {formSuccess ? null: (<Col lg="7" className="d-flex align-items-center">
+           <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
                 <Col lg="6" className="form-group">
                   <input
@@ -158,8 +162,10 @@ export const ContactUs = () => {
                 </Col>
               </Row>
             </form>
-          </Col>
+           
+          </Col> )}
         </Row>
+        <ToastContainer />
       </Container>
       <div className={formData.loading ? "loading-bar" : "d-none"}></div>
     </HelmetProvider>

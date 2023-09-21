@@ -17,7 +17,7 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "a bit about my self",
+    title: "A bit about my self",
     aboutme: "Hello, I'm Kibrewossen Y, an experienced Full Stack Developer with a strong track record of creating powerful web applications over the past five years.",
 };
 const worktimeline = [{
@@ -233,14 +233,15 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-    MY_EMAIL: "kibrewosseny@gmail.com",
+    MY_EMAIL: "kibrish49@gmail.com",
     MY_PHONE: "+268 76 312468",
     description: "Have a project in mind or just want to chat? I'm all ears! Whether you have questions, ideas, or collaboration in mind, I'm here to listen and respond.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_effg9my",
+    YOUR_TEMPLATE_ID: "template_om9yw5n",
+    YOUR_USER_ID: "hGopzezbK1HCDoKvM",
+    MY_PUBLIC_KEY: "hGopzezbK1HCDoKvM"
 };
 
 const socialprofils = {

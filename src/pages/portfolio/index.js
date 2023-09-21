@@ -30,11 +30,11 @@ export const Portfolio = () => {
           {dataportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item card">
-                {/* <div
-                  className="h_bg-image order-1 order-lg-2 h-100 "
+                <div
+                  className="img"
                   style={{ backgroundImage: `url(${myImage1})` }}
-                ></div> */}
-                <img src={`${myImages[data.img]}`} alt="" />
+                ></div>
+                {/* <img src={`${myImages[data.img]}`} alt={data.title} /> */}
                 <div class="card-body content">
                   <h5 class="card-title">{data.title}</h5>
                   <p>{data.description}</p>

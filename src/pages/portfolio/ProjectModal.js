@@ -11,7 +11,7 @@ function ProjectModal({ project,img }) {
 
   return (
     <>
-      <Button variant="primary" className='ac_btn btn' onClick={handleShow}>
+      <Button className='ac_btn btn' onClick={handleShow}>
         See Project
       </Button>
       {/* <div className='bg__menu h-100'> */}
@@ -26,11 +26,15 @@ function ProjectModal({ project,img }) {
             })}
           </ul>
           <div className='po_body'>
-          <img src={img} alt={project.title} />
+          {/* <img src={img} alt={project.title} /> */}
+          <div
+                  className="img "
+                  style={{ backgroundImage: `url(${img})` }}
+                ></div> 
           <p>{project.description}</p>
           </div>
         <div className='po_footer'>
-          <Button variant="primary" className='ac_btn btn' onClick={handleClose}>
+          <Button className='ac_btn btn' onClick={handleClose}>
             See Live <RxExternalLink />
           </Button>
           <Button className='ac_btn btn' onClick={handleClose}>
