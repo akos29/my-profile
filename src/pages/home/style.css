@@ -37,6 +37,17 @@ section {
     margin-top: -60px;
 }
 
+.profile {
+    /* width: 250px; */
+    height: 250px;
+    object-fit: cover;
+    border-radius: 150px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 0%;
+    background-size: cover;
+}
+
 @media (max-width:991.98px) {
     .intro_sec {
         display: block;

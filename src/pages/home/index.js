@@ -1,13 +1,15 @@
-import React from "react";
+import React, {useState} from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
-import  Kb  from "../../assets/images/Kb.JPG";
-import bg from "../../assets/images/bg.jpeg";
+import bg1 from "../../assets/images/bg1.png";  
+import bgd1 from "../../assets/images/bgd1.jpg";
+import  Kb  from "../../assets/images/Kb.png";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
+  const [theme, settheme] = useState(localStorage.getItem("theme"));
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -19,7 +21,7 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
             className="h_bg-image order-1 order-lg-2 h-100"
-            style={{ backgroundImage: `url(${bg})` }}
+            style={{ backgroundImage: `url(${(bgd1)})`,  backgroundRepeat: "repeat", backgroundSize: '650px'}}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
