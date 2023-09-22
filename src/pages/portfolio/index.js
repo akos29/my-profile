@@ -8,6 +8,8 @@ import myImage1 from "../../assets/images/portfolio/1.jpg";
 import myImage2 from "../../assets/images/portfolio/2.jpg";
 import myImage3 from "../../assets/images/portfolio/3.jpg";
 import myImage4 from "../../assets/images/portfolio/4.jpg";
+import Kibrewossen_Mekasha_Resume from "../../assets/Kibrewossen_Mekasha_Resume.pdf"
+import { FiDownload } from 'react-icons/fi'
 
 export const Portfolio = () => {
   const myImages = [myImage1, myImage2, myImage3, myImage4];
@@ -25,8 +27,10 @@ export const Portfolio = () => {
             <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
-        </Row>
+        </Row> 
+        <a href={Kibrewossen_Mekasha_Resume}  className="download" download="Kibrewossen_Mekasha_Resume.pdf" > Résumé PDF <FiDownload /></a> 
         <div className="mb-3 po_items_ho">
+       
           {dataportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item card">

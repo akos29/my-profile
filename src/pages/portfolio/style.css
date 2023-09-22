@@ -176,3 +176,10 @@
     border-radius: 5px;
     
 }
+
+.download {
+    position: 'absolute';
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
