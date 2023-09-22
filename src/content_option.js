@@ -172,78 +172,7 @@ const dataportfolio = [
         ],
     },
    
-    {
-        img: "3",
-        description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is built with Ruby on Rails and React.",
-        link: "#",
-        github: '#',
-        title: "Organizational Self Assessment Tool",
-        tech: [
-            { name: "Ruby on Rails", value: 85 },
-            { name: "React", value: 85 },
-            { name: "Redux", value: 80 },
-            { name: "JavaScript", value: 80 },
-            { name: "HTML5", value: 90 },
-            { name: "CSS3", value: 90 },
-            { name: "Bootstrap", value: 85 },
-            { name: "Material UI", value: 80 },
-            { name: "PostgreSQL", value: 90 },
-        ],
-    },
-    {
-        img: "1",
-        description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is built with Ruby on Rails and React.",
-        link: "#",
-        github: '#',
-        title: "Organizational Self Assessment Tool",
-        tech: [
-            { name: "Ruby on Rails", value: 85 },
-            { name: "React", value: 85 },
-            { name: "Redux", value: 80 },
-            { name: "JavaScript", value: 80 },
-            { name: "HTML5", value: 90 },
-            { name: "CSS3", value: 90 },
-            { name: "Bootstrap", value: 85 },
-            { name: "Material UI", value: 80 },
-            { name: "PostgreSQL", value: 90 },
-        ],
-    },
-    {
-        img: "2",
-        description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is built with Ruby on Rails and React.",
-        link: "#",
-        github: '#',
-        title: "Organizational Self Assessment Tool",
-        tech: [
-            { name: "Ruby on Rails", value: 85 },
-            { name: "React", value: 85 },
-            { name: "Redux", value: 80 },
-            { name: "JavaScript", value: 80 },
-            { name: "HTML5", value: 90 },
-            { name: "CSS3", value: 90 },
-            { name: "Bootstrap", value: 85 },
-            { name: "Material UI", value: 80 },
-            { name: "PostgreSQL", value: 90 },
-        ],
-    },
-    {
-        img: "2",
-        description: "A web application that helps organizations to assess their performance and identify their strengths and weaknesses. The application is built with Ruby on Rails and React.",
-        link: "#",
-        github: '#',
-        title: "Organizational Self Assessment Tool",
-        tech: [
-            { name: "Ruby on Rails", value: 85 },
-            { name: "React", value: 85 },
-            { name: "Redux", value: 80 },
-            { name: "JavaScript", value: 80 },
-            { name: "HTML5", value: 90 },
-            { name: "CSS3", value: 90 },
-            { name: "Bootstrap", value: 85 },
-            { name: "Material UI", value: 80 },
-            { name: "PostgreSQL", value: 90 },
-        ],
-    },
+   
    
 ];
 
@@ -263,7 +192,7 @@ const socialprofils = {
     github: "https://github.com/akos29",
     angel: "https://angel.co/u/kibrewossen-y-mekasha",
     linkedin: "http://www.linkedin.com/in/kibrewossen-y-mekasha",
-    twitter: "https://twitter.com",
+    twitter: "https://twitter.com/Kbson49",
 };
 export {
     meta,
