@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import  Kb  from "../../assets/images/Kb.JPG";
+import bg from "../../assets/images/bg.jpeg";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
@@ -18,7 +19,7 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
             className="h_bg-image order-1 order-lg-2 h-100"
-            style={{ backgroundImage: `url(${Kb})` }}
+            style={{ backgroundImage: `url(${bg})` }}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">

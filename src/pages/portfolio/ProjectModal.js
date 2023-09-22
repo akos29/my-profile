@@ -32,7 +32,7 @@ function ProjectModal({ project,img }) {
                   className="img "
                   style={{ backgroundImage: `url(${img})` }}
                 ></div> 
-          <p>{project.description}</p>
+          <p className='text_2'>{project.description}</p>
           </div>
         <div className='po_footer'>
           <a className='ac_btn btn' href={project.link}>
