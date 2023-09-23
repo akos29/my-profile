@@ -144,7 +144,7 @@ const dataportfolio = [
         img: "3",
         description: "A web application designed to create a bookstore that allows users to manage books and track their progress. The application is built with React and Redux.",
         link: "https://flop-bookstore.netlify.app/",
-        github: "",
+        github: "https://github.com/akos29/bookStore",
         title: "Bookstore CMS",
         tech: [
             { name: "React", value: 85 },
