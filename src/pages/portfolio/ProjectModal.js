@@ -35,10 +35,10 @@ function ProjectModal({ project,img }) {
           <p className='text_2'>{project.description}</p>
           </div>
         <div className='po_footer'>
-          <a className='ac_btn btn' href={project.link}>
+          <a className='ac_btn btn' href={project.link} target="_blank">
             See Live <RxExternalLink />
           </a>
-          <a className='ac_btn btn'  href={project.github}>
+          <a className='ac_btn btn'  href={project.github} target="_blank">
             See Source <AiFillGithub />
           </a>
         </div>
