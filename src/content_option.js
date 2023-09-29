@@ -18,7 +18,18 @@ const introdata = {
 
 const dataabout = {
     title: "A bit about my self",
-    aboutme: "Hello, I'm Kibrewossen Y, an experienced Full Stack Developer with a strong track record of creating powerful web applications over the past five years.",
+    aboutme: `I am a dedicated professional with a rich and diverse background that spans over a decade of experience. My journey in the world of technology and education has been nothing short of extraordinary. With a strong foundation in computer science, I have ventured into various roles, each contributing to my growth and expertise.`,
+    exp1:`As a Co-Founder & Full Stack Developer at Safari ICT Solutions PLC, I had the privilege of playing a pivotal role in establishing and nurturing a thriving ICT company. This journey has not only sharpened my technical skills but has also given me valuable insights into business operations and management.`,
+    exp2: `My commitment to learning and growth led me to become a Mentor (Volunteer) at Microverse Inc, where I share my knowledge and guide the next generation of web developers. Collaborating remotely with talented individuals from around the world has been an enriching experience.`,
+    exp3: `During my tenure as a Lecturer at Hawassa University in Ethiopia, I had the privilege of shaping the minds of future tech leaders. I take great pride in contributing to their educational journey, fostering a culture of innovation, and boosting graduate employability.`,
+        
+    exp4: `In the fast-paced world of corporate technology, I stepped into the role of an ICT Department Head at Tekleberhan Ambaye Construction PLC. Here, I harnessed technology to streamline processes, ensuring efficiency and productivity. My innovative solutions, especially during challenging times like the COVID-19 pandemic, earned significant success.`,
+    
+    exp5: `As a Business Analyst at Grail Consulting LLC, I focused on optimizing operations and refining processes. My ability to identify opportunities for improvement and implement effective strategies led to enhanced efficiency and more streamlined workflows.`,
+    
+    conclusion: ` My career path has been defined by adaptability, dedication, and a continuous thirst for knowledge. I am not only a Full Stack Developer but also a mentor, educator, innovator, and problem-solver. I believe in the transformative power of technology and education to change lives and drive progress.`,
+    
+    cta: `I look forward to new challenges and opportunities that lie ahead, always ready to contribute my skills and experiences to make a meaningful impact.`,
 };
 const worktimeline = [{
         jobtitle: "Co-Founder & Full Stack Developer",
@@ -29,6 +40,16 @@ const worktimeline = [{
         jobtitle: "Mentor (Volunteer)",
         where: "Microverse Inc, Remote",
         date: "2023 - Present",
+    },
+    {
+        jobtitle: "Lecturer",
+        where: "Hawassa University, Hawassa, Ethiopia",
+        date: "2017 – 2022",
+    },
+    {
+        jobtitle: "ICT Department Head",
+        where: "Tekleberhan Ambaye ConstructionPLC, Addis Ababa, Ethiopia",
+        date: "2020 – 2021",
     },
     {
         jobtitle: "Business Analyst",
