@@ -26,12 +26,18 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp sec_ab">
-          <Col lg="5">
+          <Col lg="12">
             <h3 className="color_sec py-4">{dataabout.title}</h3>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          <Col lg="12" className="d-flex align-items-center">
             <div>
               <p>{dataabout.aboutme}</p>
+              <p>{dataabout.exp1}</p>
+              <p>{dataabout.exp2}</p>
+              <p>{dataabout.exp3}</p>
+              <p>{dataabout.exp4}</p>
+              <p>{dataabout.conclusion}</p>
+              <p>{dataabout.cta}</p>
             </div>
           </Col>
         </Row>
