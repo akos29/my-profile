@@ -19,7 +19,7 @@ const introdata = {
 const dataabout = {
     title: "A bit about my self",
     aboutme: `I am a dedicated professional with a rich and diverse background that spans over a decade of experience. My journey in the world of technology and education has been nothing short of extraordinary. With a strong foundation in computer science, I have ventured into various roles, each contributing to my growth and expertise.`,
-    exp6:`In my role as a Part-time Data Analyst at Community Engagement &  Rehabilitation Alliance (   CERA), I've significantly improved data quality and accessibility for disability services and community empowerment programs. Using KOBO Toolbox, I implemented a data quality assurance process, boosting accuracy. Additionally, I developed a user-friendly data interface application, cutting data entry time by 30%. Leading a cross-functional team, I streamlined reporting by integrating data sources, reducing duplication of efforts`,
+    exp6:`In my role as a Part-time Data Analyst at Community Engagement &  Rehabilitation Alliance (CERA), I've significantly improved data quality and accessibility for disability services and community empowerment programs. Using KOBO Toolbox, I implemented a data quality assurance process, boosting accuracy. Additionally, I developed a user-friendly data interface application, cutting data entry time by 30%. Leading a cross-functional team, I streamlined reporting by integrating data sources, reducing duplication of efforts`,
     exp1:`As a Co-Founder & Full Stack Developer at Safari ICT Solutions PLC, I had the privilege of playing a pivotal role in establishing and nurturing a thriving ICT company. This journey has not only sharpened my technical skills but has also given me valuable insights into business operations and management.`,
     exp2: `My commitment to learning and growth led me to become a Mentor (Volunteer) at Microverse Inc, where I share my knowledge and guide the next generation of web developers. Collaborating remotely with talented individuals from around the world has been an enriching experience.`,
     exp3: `During my tenure as a Lecturer at Hawassa University in Ethiopia, I had the privilege of shaping the minds of future tech leaders. I take great pride in contributing to their educational journey, fostering a culture of innovation, and boosting graduate employability.`,
@@ -32,20 +32,26 @@ const dataabout = {
     
     cta: `I look forward to new challenges and opportunities that lie ahead, always ready to contribute my skills and experiences to make a meaningful impact.`,
 };
-const worktimeline = [{
-        jobtitle: "Co-Founder & Full Stack Developer",
-        where: "Safari ICT Solutions PLC, Hybrid",
-        date: "2017 - Present",
+const worktimeline = [
+    {
+        jobtitle: " Data Analyst (Part-time)   ",
+        where: "Community Engagement and Rehabilitation Alliance (CERA), Manzini, Swaziland",
+        date: "2022 - Present",
     },
     {
-        jobtitle: "Mentor (Volunteer)",
+        jobtitle: "Data Analyst  & Full Stack Developer (Part-time)",
+        where: "Safari ICT Solutions PLC, Hybrid",
+        date: "2022 - Present",
+    },
+    {
+        jobtitle: "Mentor (Volunteer) Part-time",
         where: "Microverse Inc, Remote",
         date: "2023 - Present",
     },
     {
         jobtitle: "Lecturer",
         where: "Hawassa University, Hawassa, Ethiopia",
-        date: "2017 – 2022",
+        date: "2017 – 2021",
     },
     {
         jobtitle: "ICT Department Head",
@@ -114,6 +120,18 @@ const services = [
             {name: "Slack", value: 85},
             {name: "GitHub", value: 80},
             {name: "Heroku", value: 90},
+        ]
+    },
+    {
+        title: "Analysis & Reporting",
+        description: [
+            {name: "SQL", value: 85},
+            {name: "Excel", value: 80},
+            {name: "PowerBI", value: 90},
+            {name: "SPSS", value: 85},
+            {name: "STATA", value: 80}, {name: "Python", value: 85},
+            {name: "Pandas", value: 80},
+            {name: "Jupyter", value: 90},
         ]
     },
     {
