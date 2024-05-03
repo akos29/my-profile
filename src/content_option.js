@@ -212,6 +212,21 @@ const dataportfolio = [
         ],
     },
    
+    {
+        img: "4",
+        description: "Transport Systems Improvement Project (TRANSIP)— As a key analyst on the TRANSIP project, funded by the World Bank with a budget of $300 million, I played a pivotal role in enhancing Ethiopia's transport management system. My responsibilities included extensive data collection and in-depth analysis of traffic accident datasets to identify trends and operational challenges nationwide. Leveraging this analysis, I crafted a comprehensive Business Requirements Document and proposed an optimized 'To Be' system design, addressing critical areas such as accident and penalty management. My efforts ensured alignment with stakeholder needs, ranging from the Ministry of Transport & Logistics to regional traffic offices, facilitating significant policy advancements and operational efficiencies. The role demanded a meticulous approach to data handling, stakeholder engagement, and analytical reporting, directly impacting policy formulation and national transport management strategies.",
+        link: "https://projects.worldbank.org/en/projects-operations/project-detail/P151819",
+        // github: "https://github.com/akos29/movieHub",
+        title: "Ethiopia: Transport Systems Improvement Project (TRANSIP)",
+        tech: [
+            { name: "Business Analysis", value: 85 },
+            { name: "PowerBI", value: 85 },
+            { name: "Kobo Toolbox", value: 80 },
+            { name: "Agile", value: 90 },
+            { name: "SQL", value: 90 },
+        ],
+    },
+   
    
    
 ];

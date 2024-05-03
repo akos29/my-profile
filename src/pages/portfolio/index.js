@@ -7,6 +7,7 @@ import myImage1 from "../../assets/images/portfolio/1.jpg";
 import myImage2 from "../../assets/images/portfolio/2.jpg";
 import myImage3 from "../../assets/images/portfolio/3.jpg";
 import myImage4 from "../../assets/images/portfolio/4.jpg";
+import myImage5 from "../../assets/images/portfolio/5.jpeg";
 import Kibrewossen_Mekasha_Resume from "../../assets/Kibrewossen_Mekasha_Resume.pdf";
 import { FiDownload } from "react-icons/fi";
 import { AiFillGithub } from "react-icons/ai";
@@ -15,7 +16,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 import ProjectModal from "./ProjectModal";
 
 export const Portfolio = () => {
-  const myImages = [myImage1, myImage2, myImage3, myImage4];
+  const myImages = [myImage1, myImage2, myImage3, myImage4, myImage5];
 
   // State to manage the modal
   const [showModal, setShowModal] = useState(false);
@@ -72,15 +73,16 @@ export const Portfolio = () => {
                   <p>{data.description.slice(0, 150)}</p>
                   <div className="po_footer">
                     <a className="ac_btn btn" href={data.link} target="_blank">
-                      See Live <RxExternalLink />
+                      {data.github? 'See Live': 'Project Detail'} <RxExternalLink />
                     </a>
-                    <a
+                   {data.github ? ( <a
                       className="ac_btn btn"
                       href={data.github}
                       target="_blank"
                     >
                       See Source <AiFillGithub />
                     </a>
+                    ) : null}
                   </div>
                 </div>
               </div>

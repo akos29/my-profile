@@ -27,11 +27,11 @@ function ProjectModal({ project, img, show, handleClose }) {
         </div>
         <div className="po_footer">
           <a className="ac_btn btn" href={project.link} target="_blank">
-            See Live <RxExternalLink />
+           {project.github ? ' See Live ': 'Project Detail'}<RxExternalLink />
           </a>
-          <a className="ac_btn btn" href={project.github} target="_blank">
+         {project.github ?  <a className="ac_btn btn" href={project.github} target="_blank">
             See Source <AiFillGithub />
-          </a>
+          </a>: null}
         </div>
       </Modal.Body>
     </Modal>
