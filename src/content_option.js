@@ -8,8 +8,8 @@ const meta = {
 const introdata = {
     title: "I’m Kibrewossen Y",
     animated: {
-        first: "I'm a Full Stack Developer",
-        second: "I'm Proficient in Ruby on Rails, React, and JavaScript",
+        first: "I'm a Data Analyst & Full Stack Developer",
+        second: "I'm Proficient in Ruby on Rails, Python, and JavaScript",
         third: "I'm here to transform your vision into a remarkable product",
     },
     description: "I can help you build a product, feature or website Look through some of my work and experience!  Let's collaborate to build something exceptional together.",
