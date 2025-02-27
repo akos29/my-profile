@@ -8,8 +8,8 @@ const meta = {
 const introdata = {
     title: "I’m Kibrewossen Y",
     animated: {
-        first: "I'm a Data Analyst & Full Stack Developer",
-        second: "I'm Proficient in Ruby on Rails, Python, and JavaScript",
+        first: "I'm a Full Stack Developer",
+        second: "I'm Proficient in ReactJS, Ruby on Rails, and JavaScript",
         third: "I'm here to transform your vision into a remarkable product",
     },
     description: "I can help you build a product, feature or website Look through some of my work and experience!  Let's collaborate to build something exceptional together.",
@@ -34,34 +34,40 @@ const dataabout = {
 };
 const worktimeline = [
     {
-        jobtitle: " Data Analyst (Part-time)   ",
+        jobtitle: " Data Analyst & Project Supervisor (Part-time)   ",
         where: "Community Engagement and Rehabilitation Alliance (CERA), Manzini, Swaziland",
-        date: "2022 - Present",
+        date: "2022 - 2024",
     },
     {
-        jobtitle: "Data Analyst  & Full Stack Developer (Part-time)",
-        where: "Safari ICT Solutions PLC, Hybrid",
-        date: "2022 - Present",
+        jobtitle: "Co-Founder & IT Manager ",
+        where: "Safari ICT Solutions PLC",
+        date: "2017 - 2023",
     },
     {
         jobtitle: "Mentor (Volunteer) Part-time",
         where: "Microverse Inc, Remote",
-        date: "2023 - Present",
+        date: "2023 - 2024",
+    },
+    
+    {
+        jobtitle: "Senior Software Developer & ICT Department Head ",
+        where: "Tekleberhan Ambaye ConstructionPLC, Addis Ababa, Ethiopia",
+        date: "2017 – 2021",
     },
     {
-        jobtitle: "Lecturer",
+        jobtitle: "Business Analyst Team Lead ",
+        where: "Grail Consulting LLC, Addis Ababa, Ethiopia",
+        date: "2020 – 2021",
+    },
+    {
+        jobtitle: "Lecturer & IT Specialist ",
         where: "Hawassa University, Hawassa, Ethiopia",
         date: "2017 – 2021",
     },
     {
-        jobtitle: "ICT Department Head",
-        where: "Tekleberhan Ambaye ConstructionPLC, Addis Ababa, Ethiopia",
-        date: "2020 – 2021",
-    },
-    {
-        jobtitle: "Business Analyst",
-        where: "Grail Consulting LLC, Addis Ababa, Ethiopia",
-        date: "2020 – 2021",
+        jobtitle: "Assistant Lecturer ",
+        where: "Hawassa University, Hawassa, Ethiopia",
+        date: "2009 – 2013",
     },
 ];
 
@@ -233,7 +239,7 @@ const dataportfolio = [
 
 const contactConfig = {
     MY_EMAIL: "kibrish49@gmail.com",
-    MY_PHONE: "+268 76 312468",
+    MY_PHONE: "+251 91212 9463",
     description: "Have a project in mind or just want to chat? I'm all ears! Whether you have questions, ideas, or collaboration in mind, I'm here to listen and respond.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
